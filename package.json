@@ -1,49 +1,28 @@
 {
   "name": "goit-js-hw-10-food-service",
-  "version": "1.0.0",
-  "description": "Сборка Parcel 1.12.5",
+  "version": "1.1.0",
+  "description": "",
   "main": "index.js",
+  "homepage": "https://goitacademy.github.io/goit-js-hw-10-food-service",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html --public-url /goit-js-hw-10-food-service/",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-10-food-service/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Eduard-Konovka/goit-js-hw-10-food-service.git"
+    "url": "git+https://github.com/goitacademy/goit-js-hw-10-food-service.git"
   },
+  "keywords": [],
   "author": "Eduard Konovka <ed098ua@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Eduard-Konovka/goit-js-hw-10-food-service/issues"
-  },
-  "homepage": "https://eduard-konovka.github.io/goit-js-hw-10-food-service",
-  "dependencies": {
-    "gh-pages": "^3.2.3",
-    "handlebars": "^4.7.7",
-    "joi": "^17.4.2",
-    "parcel-plugin-handlebars": "^0.4.4",
-    "shortid": "^2.2.16"
+    "url": "https://github.com/goitacademy/goit-js-hw-10-food-service/issues"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.5",
-    "parcel-plugin-custom-dist-structure": "^1.1.18",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
-    "parcel-plugin-nuke-dist": "^1.0.1"
-  },
-  "customDistStructure": {
-    "config": {
-      ".css": "css",
-      ".js": "js",
-      "images": [
-        ".jpg",
-        ".svg",
-        ".png"
-      ]
-    },
-    "options": {
-      "development": true
-    }
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
   }
 }
