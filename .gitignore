@@ -1,7 +1,11 @@
-#Junk
-.DS_Store
-.vscode/
+# Settings
+.DS_Store 
+.vscode/ 
 .idea/
+
+# Output
+build/ 
+dist/
 
 # Logs
 logs
